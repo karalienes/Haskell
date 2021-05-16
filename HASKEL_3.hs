@@ -34,7 +34,7 @@ psts x xs = [i | (a,i)<-zip xs [0..], x == a]
 
 
 --lowers :: String -> Int
---lowers xs = length [x | x <- xs , ÝsLower 'x' ]
+--lowers xs = length [x | x <- xs , ÃsLower 'x' ]
 
 pyth :: Int -> [(Int,Int,Int)]
 pyth n = [(x,y,z) | x <- [3..n] , y <- [x+1..n] , z <- [y+1..n] , x^2+y^2 ==z^2]
